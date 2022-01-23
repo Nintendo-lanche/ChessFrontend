@@ -55,7 +55,7 @@ function WonMatch() {
         //transaction was successful and confirmed
         console.log(recipt);
         setIsLoading(false);
-        alert("Transaction Successful you recieved " + amount * 2 + " Avax");
+        alert("Transaction Successful you received " + amount * 2 + " Avax");
         navigate("/app");
       });
 

@@ -98,6 +98,7 @@ function StakingTokens() {
                 display: "flex",
                 flexDirection: "column",
                 justifyContent: "center",
+                outline: "none",
               }}
             >
               <div
@@ -114,6 +115,7 @@ function StakingTokens() {
                     background: "rgba(26, 28, 32, 0.75)",
                     position: "relative",
                     left: "2rem",
+                    outline: "none",
                   }}
                   placeholder="Amount"
                   value={amount}

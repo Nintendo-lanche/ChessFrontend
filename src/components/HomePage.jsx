@@ -96,7 +96,7 @@ function HomePage() {
                   bottom: "1.5rem",
                 }}
               >
-                Join a Lobby
+                Join Lobby
               </span>
               <br />
               <br />
@@ -122,6 +122,7 @@ function HomePage() {
                       bottom: "4rem",
                       height: "2.5rem",
                       borderRadius: "0.5rem",
+                      outline: "none",
                     }}
                     placeholder="Game Id"
                     value={gameIdInput}
@@ -142,6 +143,8 @@ function HomePage() {
                       borderRadius: "2rem",
                       fontSize: "1.4rem",
                       paddingTop: "8px",
+                      outline: "none",
+                      outline: "active:none",
                     }}
                   />
                 </div>
