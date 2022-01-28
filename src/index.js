@@ -9,7 +9,7 @@ import "./css/detail.css";
 import "./css/nft.css";
 import "./css/home.css";
 import "./css/slider.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 const APP_ID = process.env.REACT_APP_MORALIS_APPLICATION_ID;
 const SERVER_URL = process.env.REACT_APP_MORALIS_SERVER_URL;
@@ -19,11 +19,9 @@ const Application = () => {
   const isServerInfo = APP_ID && SERVER_URL ? true : false;
   if (isServerInfo)
     return (
-      <BrowserRouter>
-        <MoralisProvider appId={APP_ID} serverUrl={SERVER_URL}>
-          <App isServerInfo />
-        </MoralisProvider>
-      </BrowserRouter>
+      <MoralisProvider appId={APP_ID} serverUrl={SERVER_URL}>
+        <App isServerInfo />
+      </MoralisProvider>
     );
   else {
     return (
@@ -34,7 +32,15 @@ const Application = () => {
   }
 };
 
-ReactDOM.render(<Application />, document.getElementById("root"));
+ReactDOM.render(
+  <React.StrictMode>
+    <Router basename="https://nintendo-lanche.github.io/ChessFrontend">
+      <Application />,
+    </Router>
+    ,
+  </React.StrictMode>,
+  document.getElementById("root")
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
