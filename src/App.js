@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import HomePage from "./components/HomePage";
 import { useMoralis } from "react-moralis";
 import StakingTokens from "../src/components/StakingTokens";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./index.css";
 import StakeTokens from "./components/StakeTokens";
 import ChessGame from "./components/ChessGame";
@@ -21,18 +21,22 @@ function App({ isServerInfo }) {
 
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/app" element={<HomePage />} />
-          <Route path="/createGame" element={<StakingTokens />} />
-          <Route path="/joinGame" element={<StakeTokens />} />
-          <Route path="/waiting" element={<Waiting />} />
-          <Route path="/game" element={<ChessGame />} />
-          <Route path="/claimTokens" element={<WonMatch />} />
-          <Route path="/lost" element={<LostMatch />} />
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        {/* <Route path="/remove" element={<LandingPage />} /> */}
+        <Route path="/" element={<HomePage />} />
+        <Route path="/app" element={<HomePage />} />
+        <Route path="/createGame" element={<StakingTokens />} />
+        <Route path="/joinGame" element={<StakeTokens />} />
+        <Route path="/waiting" element={<Waiting />} />
+        <Route path="/game" element={<ChessGame />} />
+        <Route path="/claimTokens" element={<WonMatch />} />
+        <Route path="/lost" element={<LostMatch />} />
+        {/* <Route path="/minting" element={<NftMintButt />} />
+        <Route path="/nft_minting" element={<NftMinting />} />
+        <Route path="/gif_minting" element={<GifMinting />} />
+        <Route path="/your_nft" element={<YourNfts />} />
+        <Route path="/single-nft" element={<SingleNft />} /> */}
+      </Routes>
     </>
   );
 }
