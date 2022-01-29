@@ -19,11 +19,9 @@ const Application = () => {
   const isServerInfo = APP_ID && SERVER_URL ? true : false;
   if (isServerInfo)
     return (
-      <BrowserRouter>
-        <MoralisProvider appId={APP_ID} serverUrl={SERVER_URL}>
-          <App isServerInfo />
-        </MoralisProvider>
-      </BrowserRouter>
+      <MoralisProvider appId={APP_ID} serverUrl={SERVER_URL}>
+        <App isServerInfo />
+      </MoralisProvider>
     );
   else {
     return (
@@ -34,7 +32,14 @@ const Application = () => {
   }
 };
 
-ReactDOM.render(<Application />, document.getElementById("root"));
+ReactDOM.render(
+  <React.StrictMode>
+    <BrowserRouter basename="https://nintendo-lanche.github.io/ChessFrontend">
+      <Application />
+    </BrowserRouter>
+  </React.StrictMode>,
+  document.getElementById("root")
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
