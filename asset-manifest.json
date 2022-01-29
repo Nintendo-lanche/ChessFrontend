@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ChessFrontend/static/css/main.44432e1b.chunk.css",
-    "main.js": "/ChessFrontend/static/js/main.f578567f.chunk.js",
-    "main.js.map": "/ChessFrontend/static/js/main.f578567f.chunk.js.map",
+    "main.js": "/ChessFrontend/static/js/main.6841a429.chunk.js",
+    "main.js.map": "/ChessFrontend/static/js/main.6841a429.chunk.js.map",
     "runtime-main.js": "/ChessFrontend/static/js/runtime-main.a5065940.js",
     "runtime-main.js.map": "/ChessFrontend/static/js/runtime-main.a5065940.js.map",
     "static/css/2.53b0ff91.chunk.css": "/ChessFrontend/static/css/2.53b0ff91.chunk.css",
-    "static/js/2.ab36ae4e.chunk.js": "/ChessFrontend/static/js/2.ab36ae4e.chunk.js",
-    "static/js/2.ab36ae4e.chunk.js.map": "/ChessFrontend/static/js/2.ab36ae4e.chunk.js.map",
+    "static/js/2.91fba9f5.chunk.js": "/ChessFrontend/static/js/2.91fba9f5.chunk.js",
+    "static/js/2.91fba9f5.chunk.js.map": "/ChessFrontend/static/js/2.91fba9f5.chunk.js.map",
     "static/js/3.02a300f8.chunk.js": "/ChessFrontend/static/js/3.02a300f8.chunk.js",
     "static/js/3.02a300f8.chunk.js.map": "/ChessFrontend/static/js/3.02a300f8.chunk.js.map",
     "static/js/4.735b5330.chunk.js": "/ChessFrontend/static/js/4.735b5330.chunk.js",
@@ -15,7 +15,7 @@
     "index.html": "/ChessFrontend/index.html",
     "static/css/2.53b0ff91.chunk.css.map": "/ChessFrontend/static/css/2.53b0ff91.chunk.css.map",
     "static/css/main.44432e1b.chunk.css.map": "/ChessFrontend/static/css/main.44432e1b.chunk.css.map",
-    "static/js/2.ab36ae4e.chunk.js.LICENSE.txt": "/ChessFrontend/static/js/2.ab36ae4e.chunk.js.LICENSE.txt",
+    "static/js/2.91fba9f5.chunk.js.LICENSE.txt": "/ChessFrontend/static/js/2.91fba9f5.chunk.js.LICENSE.txt",
     "static/js/3.02a300f8.chunk.js.LICENSE.txt": "/ChessFrontend/static/js/3.02a300f8.chunk.js.LICENSE.txt",
     "static/media/AvaxToken.e1fb45e8.png": "/ChessFrontend/static/media/AvaxToken.e1fb45e8.png",
     "static/media/home.css": "/ChessFrontend/static/media/Circles2.9cbd9adb.png",
@@ -34,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.a5065940.js",
     "static/css/2.53b0ff91.chunk.css",
-    "static/js/2.ab36ae4e.chunk.js",
+    "static/js/2.91fba9f5.chunk.js",
     "static/css/main.44432e1b.chunk.css",
-    "static/js/main.f578567f.chunk.js"
+    "static/js/main.6841a429.chunk.js"
   ]
 }
