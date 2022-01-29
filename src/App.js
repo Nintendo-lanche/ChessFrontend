@@ -22,7 +22,6 @@ function App({ isServerInfo }) {
   return (
     <>
       <Routes>
-        {/* <Route path="/remove" element={<LandingPage />} /> */}
         <Route path="/" element={<HomePage />} />
         <Route path="/app" element={<HomePage />} />
         <Route path="/createGame" element={<StakingTokens />} />
@@ -31,11 +30,6 @@ function App({ isServerInfo }) {
         <Route path="/game" element={<ChessGame />} />
         <Route path="/claimTokens" element={<WonMatch />} />
         <Route path="/lost" element={<LostMatch />} />
-        {/* <Route path="/minting" element={<NftMintButt />} />
-        <Route path="/nft_minting" element={<NftMinting />} />
-        <Route path="/gif_minting" element={<GifMinting />} />
-        <Route path="/your_nft" element={<YourNfts />} />
-        <Route path="/single-nft" element={<SingleNft />} /> */}
       </Routes>
     </>
   );
