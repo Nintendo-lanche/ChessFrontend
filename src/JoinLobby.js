@@ -153,7 +153,7 @@ const JoinLobby = () => {
               bottom: "8rem",
             }}
           >
-            <span style={{ fontSize: "2.5rem" }}>Play a Match</span>
+            <span style={{ fontSize: "2.5rem" }}>Create A Game</span>
           </section>
         </div>
       </div>
