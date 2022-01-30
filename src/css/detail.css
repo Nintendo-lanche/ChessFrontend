@@ -141,7 +141,7 @@
 /* -----------------------------------nft---------------------- */
 
 .wallContent {
-  background: linear-gradient(180deg, #932c50 0%, #bd3f32 99.42%);
+  background: linear-gradient(180deg, #ff8e00 0%, #ff8e00 99.42%);
   box-shadow: inset -7.84314px -7.84314px 39.2157px 4.90196px rgba(0, 0, 0, 0.4);
   border-image: linear-gradient(rgba(255, 255, 255, 1), rgba(194, 7, 7, 1));
 
@@ -162,7 +162,7 @@
 }
 
 .wallContent2 {
-  background: linear-gradient(180deg, #932c50 0%, #bd3f32 99.42%);
+  background: linear-gradient(180deg, #ff8e00 0%, #ffe400 99.42%);
   box-shadow: inset -7.84314px -7.84314px 39.2157px 4.90196px rgba(0, 0, 0, 0.4);
   border-image: linear-gradient(rgba(255, 255, 255, 1), rgba(194, 7, 7, 1));
 
@@ -250,12 +250,11 @@
   font-weight: 700;
   padding-left: 2rem;
   position: relative;
-  
 }
 
 .wallLogo {
   position: relative;
-  
+
   width: 5rem;
   height: 5rem;
   /* margin-top: 2rem; */
@@ -312,10 +311,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  
 }
-
-
 
 /* ----------------------------won---------------------- */
 .name {
@@ -425,10 +421,10 @@
   cursor: pointer;
   position: relative;
   top: 2rem;
-  
+
   margin-left: 1rem;
   margin-right: 1rem;
-  
+
   cursor: pointer;
   transition: all 0.25s ease-in-out;
 }
@@ -440,8 +436,6 @@
   display: flex;
   flex-direction: row;
   position: relative;
-  
-  
 }
 
 .joinLobbyMainDiv {
